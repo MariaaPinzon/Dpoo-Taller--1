@@ -371,8 +371,8 @@ public class ConsolaOlimpicos
 	{
 		System.out.println("\n" + "País de un atleta según su nombre" + "\n");
 		String nombre = input("Por favor ingrese el nombre de un atleta");	
-		String resp = calculadora.paisAtleta(nombre);
-		System.out.println("El pais del atleta seleccionado es "+resp);
+		String paisDelAtleta = calculadora.paisAtleta(nombre);
+		System.out.println("El pais del atleta seleccionado es "+paisDelAtleta);
 
 	}
 
